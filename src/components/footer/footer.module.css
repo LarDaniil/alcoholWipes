@@ -1,0 +1,96 @@
+.container {
+  max-width: 1220px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  text-align: center;
+
+  h1 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 24px;
+  }
+
+  p {
+    margin-bottom: 16px;
+    width: 220px;
+    line-height: 26px;
+  }
+
+  .products {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    a {
+      text-decoration: none;
+      color: #000000;
+      width: 310px;
+      padding: 5px;
+    }
+
+    a:hover {
+      background: #ececec;
+      border-radius: 50px;
+      opacity: 0.5;
+    }
+  }
+
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    a {
+      text-decoration: none;
+      color: #000000;
+    }
+
+    .telephone {
+      font-size: 24px;
+      line-height: 28px;
+      font-weight: bold;
+      gap: 10px;
+    }
+
+    .telephone:hover {
+      opacity: 0.5;
+    }
+
+    .mail {
+      display: flex;
+      gap: 14px;
+      font-size: 12px;
+    }
+
+    .mail:hover {
+      opacity: 0.5;
+    }
+
+    .message {
+      display: flex;
+      gap: 22px;
+
+      img {
+        cursor: pointer;
+      }
+
+      img:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+}
+
+.payments {
+  max-width: 1220px;
+  margin: auto;
+  display: flex;
+  justify-content: end;
+  gap: 36px;
+  padding: 20px 0;
+  align-items: center;
+  padding-right: 30px;
+}

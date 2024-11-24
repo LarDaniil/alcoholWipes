@@ -1,0 +1,49 @@
+.main {
+  background: #85b971;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-bottom: 80px;
+
+  .container {
+    max-width: 1220px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+    h1 {
+      font-size: 48px;
+      line-height: 51px;
+      width: 360px;
+      margin-bottom: 14px;
+    }
+    .form {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      width: 300px;
+
+      input {
+        /*px-10 py-4 w-80" */
+        background: #85b971;
+        border: 1px solid white;
+        color: white;
+        padding: 14px 38px;
+        border-radius: 50px;
+        outline: none;
+      }
+
+      input::placeholder {
+        color: white;
+      }
+
+      button {
+        cursor: pointer;
+        background: white;
+        border: none;
+        color: #85b971;
+        padding: 16px 0;
+        border-radius: 50px;
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+.header {
+  width: 100%;
+  position: fixed;
+  z-index: 3;
+  background: #f6f6f6;
+  padding: 10px 0;
+  box-shadow: 0px 3px 5px -1px rgba(62, 62, 62, 0.26);
+
+  .container {
+    display: flex;
+    max-width: 1220px;
+    margin: 0 auto;
+    align-items: center;
+
+    .links {
+      display: flex;
+      gap: 64px;
+      align-items: center;
+
+      a {
+        width: 72px;
+        padding: 3px;
+        text-decoration: none;
+        color: #414142;
+        text-align: center;
+      }
+      a:hover {
+        color: #85b971;
+      }
+      .active {
+        font-weight: bold;
+        color: #85b971;
+      }
+    }
+
+    .telephone {
+      border: 1px solid #85b971;
+      padding: 12px 48px;
+      border-radius: 43px;
+      color: #85b971;
+      text-decoration: none;
+      font-weight: bold;
+      margin-left: auto;
+      margin-right: 40px;
+    }
+    .basket {
+      padding: 4px;
+      margin-right: 8px;
+      position: relative;
+      text-decoration: none;
+      color: #85b971;
+
+      p {
+        background: #85b971;
+        border-radius: 100%;
+        width: 14px;
+        text-align: center;
+        font-size: 11px;
+        color: #fff;
+        position: absolute;
+        top: 24px;
+        right: 24px;
+      }
+    }
+  }
+}
